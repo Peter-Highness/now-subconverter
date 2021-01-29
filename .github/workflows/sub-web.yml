@@ -20,8 +20,8 @@ jobs:
     - name: Update sub-web
       run: |
         rm -rf sub-web
-        git clone https://github.com/zhongfly/sub-web.git
-
+        git clone https://github.com/Peter-Highness/sub-web
+        
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
